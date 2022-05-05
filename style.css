@@ -28,7 +28,7 @@ body {
 /* global components */
 .title {
   font-family: var(--secondary-font-family);
-  font-weight: 1000px;
+  font-weight: 700;
   font-size: 27px;
   line-height: 29px;
   letter-spacing: 0.01em;
@@ -41,7 +41,7 @@ body {
 
 .title--medium {
   font-family: var(--secondary-font-family);
-  font-weight: 1px;
+  font-weight: 700;
   font-size: 23px;
   line-height: 25px;
   letter-spacing: 0.03em;
@@ -96,7 +96,7 @@ body {
   padding-right: 125px;
 }
 .side-content {
-  width:40%;
+  width:35%;
   flex-grow: 1;
   background: linear-gradient(180deg, #6d5da8 0%, #43479e 100%);
 }
@@ -138,7 +138,7 @@ body {
 .hero__link {
   list-style: none;
 
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.05em;
   color: #666666;
@@ -164,14 +164,14 @@ body {
 }
 
 .hero__contact-item:nth-child(1)::before {
-  background-image: url(./img/telephone.png)
+  background-image: url(./img/mobile.png)
   ;
 }
 .hero__contact-item:nth-child(2)::before {
   background-image: url(./img/mail.png);
 }
 .hero__contact-item:nth-child(3)::before {
-  background-image: url(./img/calculator.png);
+  background-image: url(./img/figma.png);
 }
 .hero__contact-item:nth-child(4)::before {
   background-image: url(./img/home.png);
@@ -320,7 +320,7 @@ top:18%;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 10px;
+font-size: 30px;
 line-height: 45px;
 letter-spacing: 0.01em;
 color: white;
@@ -339,7 +339,7 @@ top:32%;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 39px;
+font-size: 30px;
 line-height: 45px;
 letter-spacing: 0.01em;
 
@@ -348,7 +348,7 @@ letter-spacing: 0.01em;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
+font-size: 47px;
 line-height: 70px;
 /* identical to box height */
 
@@ -401,7 +401,7 @@ list-style-type: none;
 }
 
 .skills-list{
-top: 1%;
+top: 40%;
 position: absolute;
 }
 .skills-list2{
@@ -411,22 +411,22 @@ position: absolute;
 
 
 .skills-list3{
-top: 1%;
+top: 47%;
 position: absolute;
 }.skills-list4{
-  top: 1%;
+  top: 51%;
   position: absolute;
 }
 .skills-list5{
-  top: 1%;
+  top: 54%;
   position: absolute;
 }
 .skills-list6{
-  top: 1%;
+  top: 57%;
   position: absolute;
 }
 .skills-list7{
-  top: 1%;
+  top: 61%;
   position: absolute;
 }
 /*line*/
@@ -524,4 +524,12 @@ position: absolute;
   border-radius: 0px;
   background: #877DBA;
   z-index: index 0;
-        }
+}
+@media screen and ( max-width: 1824px){
+
+  .main-content {padding-left: 75px; padding-right: 35px;padding-top: 50px;}
+} 
+
+@media screen and ( max-width: 1444px){
+  .hero  {flex-direction: column-reverse;}
+}
