@@ -174,7 +174,7 @@ body {
   background-image: url(./img/figma.png);
 }
 .hero__contact-item:nth-child(4)::before {
-  background-image: url(./img/home.png);
+  background-image: url(./img/marker.png);
 }
 /* GAME-EXPERIENCE */
 .game-experience {
@@ -294,7 +294,7 @@ body {
   top: -10px;
 }
 .skills-img{
-position: absolute;
+background-image: url(./img/“.png);
 margin-left: 30px;
 top: 12%;
 
@@ -303,24 +303,20 @@ top: 12%;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 16px;
 line-height: 45px;
 letter-spacing: 0.01em;
 /* white */
 
 
 }
-.skills-text{
-position: absolute;
-margin-left: 30px;
-top:18%;
-
-
-
+.pro-skills-text{
+margin-left: 70px;
+margin-top: 15px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 16px;
 line-height: 45px;
 letter-spacing: 0.01em;
 color: white;
@@ -329,17 +325,17 @@ color: white;
 
 
 
-.pro-skills-subtitle{
-position: absolute;
+.pro-skills-title{
+
 margin-left: 30px;
-top:32%;
+margin: top 150px;
 
 
-
+margin-left: 50px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 16px;
 line-height: 45px;
 letter-spacing: 0.01em;
 
@@ -348,7 +344,7 @@ letter-spacing: 0.01em;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 47px;
+font-size: 30px;
 line-height: 70px;
 /* identical to box height */
 
@@ -361,14 +357,14 @@ color: #FFFFFF;
 .pro-skills-items-text{
 
 margin-left: 60px;
-top:38%;
+margin-top:150px;
 margin-top: 15px;
 position: absolute;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 16px;
 line-height: 45px;
 letter-spacing: 0.01em;
 
@@ -376,155 +372,259 @@ letter-spacing: 0.01em;
 
 color:#FFFFFF
 }
-.line1-1{
-height: 20px;
-width: 648px;
-top:3vh;
+.pro-skills_line1-1{
+height: 15px;
+width: 400px;
+display: inline-block;
+margin-left: 50px;
+border-radius: 0px;
+background-color: #BBB5DB;
+}
+.pro-skills_line1-2{
+height: 15px;
+width: 327px;
+display: inline-block;
 
 border-radius: 0px;
-background: #BBB5DB;
-position: absolute;
-z-index: 1;
-}
-.line1-2{
-height: 20px;
-width: 688px;
-top:3vh;
-position: absolute;
-border-radius: 0px;
-background: #877DBA;
+background-color: #877DBA;
 z-index: index 0;
 }
 .skills{
 list-style-type: none;
 
 }
-
-.skills-list{
-top: 40%;
-position: absolute;
-}
-.skills-list2{
-top: 43%;
-position: absolute;
-}
-
-
-.skills-list3{
-top: 47%;
-position: absolute;
-}.skills-list4{
-  top: 51%;
-  position: absolute;
-}
-.skills-list5{
-  top: 54%;
-  position: absolute;
-}
-.skills-list6{
-  top: 57%;
-  position: absolute;
-}
-.skills-list7{
-  top: 61%;
-  position: absolute;
-}
 /*line*/
-.line2-1{
-  height: 20px;
-  width: 608px;
-  top:40%;
-  
+.pro-skills_line2-1{
+  height: 15px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 50px;
   border-radius: 0px;
-  background: #BBB5DB;
-  position: absolute;
+  background-color: #BBB5DB;
+  
   z-index: 1;
   }
-  .line2-2{
-    height: 20px;
-    width: 688px;
-    top:40%;
-    position: absolute;
-    border-radius: 0px;
-    background: #877DBA;
-    z-index: index 0;
-  }
-.line3-1{
-  height: 20px;
-  width: 555px;
-  top:40%;
-  
-  border-radius: 0px;
-  background: #BBB5DB;
-  position: absolute;
-  z-index: 1;
-  }
-  .line3-2{
-    height: 20px;
-    width: 688px;
-    top:40%;
-    position: absolute;
-    border-radius: 0px;
-    background: #877DBA;
-    z-index: index 0;
-  }
-.line4-1{
-    height: 20px;
-    width: 608px;
-    top:40%;
+  .pro-skills_line2-2{
+    height: 15px;
+    width: 368px;
+    display: inline-block;
     
     border-radius: 0px;
-    background: #BBB5DB;
-    position: absolute;
+    background-color: #877DBA;
+    z-index: index 0;
+  }
+.pro-skills_line3-1{
+  height: 15px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 50px;
+  border-radius: 0px;
+  background-color: #BBB5DB;
+
+  z-index: 1;
+  }
+  .pro-skills_line3-2{
+    height: 15px;
+    width: 335px;
+    display: inline-block;
+  
+    border-radius: 0px;
+    background-color: #877DBA;
+    z-index: index 0;
+  }
+.pro-skills_line4-1{
+    height: 15px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 0px;
+    background-color: #BBB5DB;
+  
     z-index: 1;
     }
-    .line4-2{
-      height: 20px;
-      width: 688px;
-      top:40%;
-      position: absolute;
+    .pro-skills_line4-2{
+      height: 15px;
+      width: 307px;
+      display: inline-block;
+    
       border-radius: 0px;
-      background: #877DBA;
+      background-color: #877DBA;
       z-index: index 0;
     }
-.line5-1{
-  height: 20px;
-  width: 642px;
-  top:40%;
-      
+.pro-skills_line5-1{
+  height: 15px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 50px;
   border-radius: 0px;
-  background: #BBB5DB;
-  position: absolute;
+  background-color: #BBB5DB;
+ ;
    z-index: 1;
       }
-.line5-2{
-  height: 20px;
-  width: 688px;
-  top:40%;
-  position: absolute;
+.pro-skills_line5-2{
+  height: 15px;
+  width: 289px;
+  display: inline-block;
+ 
   border-radius: 0px;
-  background: #877DBA;
+  background-color: #877DBA;
   z-index: index 0;
       }
- .line6-1{
-  height: 20px;
-  width: 608px;
-  top:40%;
-        
+ .pro-skills_line6-1{
+  height: 15px;
+  width: 400px;
+ margin-top: 15px;
+ display: inline-block;
   border-radius: 0px;
-  background: #BBB5DB;
-  position: absolute;
+  background-color: #BBB5DB;
+  margin-left: 50px;
   z-index: 1;
         }
-.line6-2{
-  height: 20px;
-  width: 688px;
-  top:40%;
-  position: absolute;
+.pro-skills_line6-2{
+  height: 15px;
+  width: 376px;
+  display: inline-block;
+
   border-radius: 0px;
-  background: #877DBA;
+  background-color: #877DBA;
   z-index: index 0;
 }
+.skills-text {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+margin: 25px;
+
+/* or 56px */
+letter-spacing: 0.03em;
+
+/* white */
+color: #FFFFFF;
+}
+
+.personal-skills-title {
+  /* H3 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 70px;
+margin-left: 50px;
+margin-top: 40px;
+
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* white */
+
+color: #FFFFFF;
+}
+
+.personal-skills-text {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 45px;
+letter-spacing: 0.01em;
+margin-left: 50px;
+/* white */
+color: #FFFFFF;
+
+
+}
+ul{
+  list-style-type: none;
+}
+.elips-white{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  margin-left: 10px;
+}
+.elips{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+.elips-greey{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  margin-left: 10px;
+}
+.follow-me-title {
+  /* H3 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 70px;
+margin-left: 50px;
+align-items: center;
+/* identical to box height */
+letter-spacing: 0.01em;
+
+/* white */
+color: #FFFFFF;
+}
+.follow-me-text {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 45px;
+letter-spacing: 0.01em;
+margin-left: 50px;
+
+/* white */
+color: #FFFFFF;
+}
+
+.dribbble-img {
+  background: #FFFFFF;
+  border-radius: 24px;
+  height: 25px;
+  width: 25px;
+  margin-left: 50px;
+  margin-top: 15px;
+  background-image: url(./img/bribbble.png);
+ 
+}
+.twitter-img {
+  background: #FFFFFF;
+  border-radius: 24px;
+  height: 25px;
+  width: 25px;
+  margin-left: 50px;
+  margin-top: 15px;
+  background-image: url(img/twitter.png);
+}
+.behance-img {
+  background: #FFFFFF;
+  border-radius: 24px;
+  height: 25px;
+  width: 25px;
+  margin-left: 50px;
+  margin-top: 15px;
+  background-image: url(img/bahanse.png);
+}
+.figma-img {
+  background: #FFFFFF;
+  border-radius: 24px;
+  height: 25px;
+  width: 25px;
+  margin-left: 50px;
+  margin-top: 15px;
+  background-image: url(img/figmaimg.png);
+}
+
+
 @media screen and ( max-width: 1824px){
 
   .main-content {padding-left: 75px; padding-right: 35px;padding-top: 50px;}
@@ -533,3 +633,5 @@ position: absolute;
 @media screen and ( max-width: 1444px){
   .hero  {flex-direction: column-reverse;}
 }
+@media screen and ( max-width: 1024px)
+    
